@@ -1,0 +1,6 @@
+Asset_ID,Asset_Type,Asset_Name,Policy_Violated,Severity,Region
+vol-09a8bc72,Storage_Bucket,prod-customer-billing-data,CIS-Storage-01: Publicly Exposed Bucket,CRITICAL,us-east-1
+vol-09a8bc72,Storage_Bucket,prod-customer-billing-data,CIS-Storage-02: Missing At-Rest Encryption,HIGH,us-east-1
+sg-0112fe9a,Security_Group,corporate-edge-firewall,CIS-Network-04: Unrestricted Ingress Port 22 (SSH),CRITICAL,eu-west-1
+iam-u-9912,IAM_User,cloud-infrastructure-intern,CIS-IAM-01: User Missing Multi-Factor Authentication,HIGH,global
+iam-u-9912,IAM_User,cloud-infrastructure-intern,CIS-IAM-02: Stale API Access Key (185 Days old),MEDIUM,global
